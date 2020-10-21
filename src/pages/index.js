@@ -21,6 +21,7 @@ export default (() => {
 			width="100%"
 			lg-width="100%"
 			moy-width="100%"
+			background="--color-orange"
 		>
 			<Stack>
 				{"    "}
@@ -219,7 +220,7 @@ export default (() => {
 				position="relative"
 				bottom="120px"
 				nout-background="#ffffff"
-				background="#fff"
+				background="--color-orange"
 				nout-left="0px"
 				justify-content="center"
 				align-items="center"
@@ -2032,7 +2033,7 @@ Account No. IT29G0306933082100000004613
 						</Text>
 						<Input
 							width="100%"
-							border-width="1px"
+							border-width="10px"
 							margin="0px 0px 30px 0px"
 							height="50px"
 							sm-width="100%"
@@ -2048,6 +2049,7 @@ Account No. IT29G0306933082100000004613
 							px-border-width="0px 0px 1px 0px"
 							required
 							disabled={false}
+							border-color="--color-primary"
 						/>
 						<Input
 							width="100%"
